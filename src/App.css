@@ -1,0 +1,124 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90%; 
+  text-align: center;
+  width: 100%;
+  border: 1px solid gold;
+  border-radius: 1rem;
+}
+
+.header{
+  width: 80%;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid gold;
+}
+
+.header h1{
+  color: gold;
+}
+
+.wrapper {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-right:auto;
+}
+
+p{
+  color: white;
+}
+
+.forms{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80%;
+  width: 100%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+  border: solid 1px gold;
+  border-radius: 3px;
+  outline: none;
+}
+
+form > input {
+  height: 70%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gold;
+  background-color: rgb(9, 9, 51);
+  padding: 1px 10px;
+  /* color: white; */
+}
+
+form > button{
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(221, 144, 28);
+  text-transform: uppercase;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.extras{
+  width: 100%;
+  text-align: left;
+}
+
+.extras button{
+  color: white;
+  background-color: rgb(230, 161, 43);
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
